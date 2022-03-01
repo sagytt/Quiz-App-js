@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="alert">
+        <div class="alert-title">Congratulations!!!</div>
+        You got them all right!
+    </div>
+
+    <form id="quiz-form">
+        <ol>
+            <li class="question-item">
+                <div>What does this code return?
+                (<code> 0 || '' || false || "Hi")</code>
+                </div>
+                <ol>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-1" value="false">
+                            <code>0</code>
+                        </label>
+                    </li>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-1" value="true">
+                            <code>"Hi"</code>
+                        </label>
+                    </li>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-1" value="false">
+                            <code>false</code>
+                        </label>
+                    </li>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-1" value="false">
+                            <code>''</code>
+                        </label>
+                    </li>
+                </ol>
+            </li>
+            <li class="question-item">
+                <div>What is it called when a function calls itself?</code></div>
+                <ol>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-2" value="false">
+                            <code>Inception</code>
+                        </label>
+                    </li>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-2" value="false">
+                            <code>Selft-Referntial</code>
+                        </label>
+                    </li>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-2" value="true">
+                            <code>Recursion</code>
+                        </label>
+                    </li>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-2" value="false">
+                            <code>Who Cares</code>
+                        </label>
+                    </li>
+                </ol>
+            </li>
+            <li class="question-item">
+                <div>How do you access the value of the data-count data attribue in JavaScript?</code>
+                </div>
+                <ol>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-3" value="true">
+                            <code>element.dataset.count</code>
+                        </label>
+                    </li>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-3" value="false">
+                            <code>element.dataAttribute.count</code>
+                        </label>
+                    </li>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-3" value="false">
+                            <code>element.dataset,dataCount</code>
+                        </label>
+                    </li>
+                    <li class="answer-item">
+                        <label>
+                            <input type="radio" class="answer" name="answer-3" value="false">
+                            <code>element.dataCount</code>
+                        </label>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <button type="submit">Check</button>
+    </form>
+</body>
+</html>
